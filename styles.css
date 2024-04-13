@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* font-family: 'Roboto', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+:root{
+    --pcolor:#A66000;
+    --font: 'Roboto', sans-serif;
+    --scolor: #FFE8C8;
+
+}
+.wrapper{
+    background-color: var(--pcolor);
+    height: 100vh;
+    width: 100vw;
+    padding:0em 1em;
+}
+.main_container{
+    height: 100%;
+    width: 98vw;
+    /* border: 1px solid red; */
+    background-color:var(--scolor);
+    padding: 1em 14em;
+
+}
+.container{
+    /* border: 1px solid coral; */
+    height: 100%;
+    font-family: var(--font);
+    padding: .1em;
+    width: 95%;
+}
+/* ..........HEADER.......... */
+.logo{
+    height: 3.2em;
+}
+.header{
+    height: 12%;
+    /* width: 100vw; */
+    /* border: 1px solid coral; */
+    display: flex;
+    gap: 4.8em;
+    align-items: center;
+    /* margin-bottom: .4em; */
+}
+H1{
+    font-size: 4em;
+    font-style: italic;
+    font-weight: 500;
+    color: var(--pcolor);
+}
+.btn{
+    /* border: 1px solid coral; */
+    width: 14%;
+    height: 60%;
+    background-color: var(--pcolor);
+    color: var(--scolor);
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.75em;
+    padding: .4em .5em;
+    text-align: center;
+    transform: skew(-15deg);
+}
+/* ............CONTENT............ */
+.content{
+    /* border: 1px solid blue; */
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ....BOX-1.... */
+.box{
+    /* border: 1px solid red; */
+    width: 47%;
+    padding: .3em;
+}
+H2{
+    font-size: 3em;
+    font-weight: 400;
+    font-style: italic;
+}
+p{
+    font-weight: 200;
+    font-size: 1.5em;
+    color: grey;
+    font-style: italic;
+    margin: 1.8em 0em 3em .2em;
+}
+.photo{
+    
+    height: 39.4vh;
+    width: 29.5vw;
+    box-shadow: -.5em -.5em #A66000;
+
+}
+/* ......BOX-2...... */
+.girl{
+    height: 58vh;
+    width: 28vw;
+    box-shadow: 1.3em 1.3em #A66000;
+}
+.buy{
+    margin: 3em 2.5em 0em 1.5em ;
+    /* border: 1px solid black; */
+    background-color: var(--pcolor);
+    color: var(--scolor);
+    padding: 1em;
+    text-align: center;
+    transform: skew(-20deg);
+    font-weight: 400;
+    font-size: 1.1em;
+}
